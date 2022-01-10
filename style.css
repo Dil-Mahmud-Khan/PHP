@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    
+    padding: 34px;
+    margin: auto;
+}
+.container h1,p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px ;
+    
+}
+input,textarea{
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid blanchedalmond;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+    
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: whilte;
+    background-color: rgb(194, 177, 235);
+    padding: 10px 7px;
+    font-size: 19px;
+    border: 2px solid rgb(218, 238, 241) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Beach{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.8 ;
+
+
+}
+.submitMsg{
+    color: rgba(236, 9, 20, 0.938);
+    
+}
+
